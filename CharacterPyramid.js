@@ -1,3 +1,15 @@
+/*
+Code prints a character pyramid to the console. The number of rows is driven by the constant count. It may be an inverted pyramid as well, that can be controlled by the inverted variable.
+
+This primarily teaches a few things:
+-> Basic for loop in JS
+-> for a of objects loop - to iterate over a list/array
+-> the push, unshift, shift, pop methods of an array
+-> Calling a function from a loop
+
+This is the first exercise from freeCodeCamp.org Javascript training
+*/
+
 const character = "#";
 const count = 8;
 const rows = [];
